@@ -1,0 +1,24 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "temporary project to learn react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishavkumar7/learn-react.git"
+  },
+  "author": "Rishav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishavkumar7/learn-react/issues"
+  },
+  "homepage": "https://github.com/rishavkumar7/learn-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
