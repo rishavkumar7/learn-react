@@ -1,6 +1,19 @@
-const parent = React.createElement("div", {id: "parent"}, 
-[React.createElement("div", {id: "child1"}, React.createElement("h1", {}, "I'm h1 tag"), React.createElement("h2", {}, "I'm h2 tag")),
-React.createElement("div", {id: "child2"}, React.createElement("h1", {}, "I'm h1 tag"), React.createElement("h2", {}, "I'm h2 tag")),]);
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const fullNameElement = <h1>Rishav Kumar is my full name</h1>
+
+const Title = () => <h2>Kumar is my title</h2>;
+
+const Name = () => {
+    return (<div>
+        {fullNameElement}
+        <h2>Rishav is my name</h2>
+        {Title()}
+        <Title />
+        <Title></Title>
+    </div>);
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<Name />);

@@ -1,8 +1,10 @@
 {
   "name": "project-1",
   "version": "1.0.0",
-  "description": "temporary project to learn react",
+  "description": "temporary project to learn react😎",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,9 +18,14 @@
   },
   "homepage": "https://github.com/rishavkumar7/learn-react#readme",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
   },
   "browserslist": [
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
