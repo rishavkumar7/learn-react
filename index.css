@@ -1,3 +1,63 @@
-#parent {
-    color: red;
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.appIcon {
+    height: 100px;
+}
+
+.navigationBar ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navigationBar li {
+    padding: 10px;
+    margin: 20px;
+}
+
+.restaurantContainer {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurantCard {
+    width: 240px;
+    height: 350px;
+    padding: 5px 5px 10px 5px;
+    margin: 10px 20px;
+    background-color: #d0d0d0;
+    border-radius: 5%;
+}
+
+.restaurantCard:hover {
+    background-color: #8f8f8f;
+    cursor: pointer;
+
+    h3 {
+        color: white;
+    }
+}
+
+.restaurantCardImage {
+    height: 50%;
+    width: 240px;
+    border-radius: 6% 6% 0% 0%;
+}
+
+.restaurantCardBody {
+    padding: 0px 10px 10px 10px;
+}
+
+.restaurantCardBody h3 {
+    color: darkred;
+}
+
+.restaurantCardBody h5 {
+    padding: 0px 0px;
+    margin: 0px 0px;
 }
