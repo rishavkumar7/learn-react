@@ -19,6 +19,14 @@
     margin: 20px;
 }
 
+.filterButton {
+    margin-left: 30px;
+    
+    button {
+        padding: 10px;
+    }
+}
+
 .restaurantContainer {
     padding: 10px;
     display: flex;
