@@ -12,17 +12,33 @@
     display: flex;
     list-style-type: none;
     font-size: 20px;
-}
 
-.navigationBar li {
-    padding: 10px;
-    margin: 20px;
+    li {
+        padding: 10px;
+        margin: 20px;
+    }
+
+    button {
+        width : 100px;
+        height: 40px;
+    }
+
+    .loginButton {
+        margin-top:12px;
+    }
 }
 
 .filterButton {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 30px;
+
+    input {
+        padding: 10px;
+    }
     
     button {
+        margin-right: 30px;
         padding: 10px;
     }
 }
@@ -40,14 +56,14 @@
     margin: 10px 20px;
     background-color: #d0d0d0;
     border-radius: 5%;
-}
 
-.restaurantCard:hover {
-    background-color: #8f8f8f;
-    cursor: pointer;
-
-    h3 {
-        color: white;
+    &:hover {
+        background-color: #8f8f8f;
+        cursor: pointer;
+    
+        h3 {
+            color: white;
+        }
     }
 }
 
@@ -59,13 +75,47 @@
 
 .restaurantCardBody {
     padding: 0px 10px 10px 10px;
+
+    h3 {
+        color: darkred;
+    }
+
+    h5 {
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
 }
 
-.restaurantCardBody h3 {
-    color: darkred;
+.restaurantCardShimmerImage {
+    height: 50%;
+    width: 240px;
+    border-radius: 6% 6% 0% 0%;
+    background-color: #979797;
 }
 
-.restaurantCardBody h5 {
-    padding: 0px 0px;
-    margin: 0px 0px;
+.restaurantCardShimmerBody {
+    padding: 0px 10px 10px 10px;
+
+    h2 {
+        width: 200px;
+        height: 25px;
+        background-color: #979797;
+        border-radius: 5px;
+    }
+
+    h3 {
+        width: 150px;
+        height: 20px;
+        background-color: #979797;
+        border-radius: 5px;
+    }
+
+    h5 {
+        width: 100px;
+        height: 15px;
+        padding: 0px 0px;
+        margin: 5px 0px;
+        background-color: #979797;
+        border-radius: 5px;
+    }
 }
